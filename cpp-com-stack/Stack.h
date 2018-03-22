@@ -14,4 +14,4 @@ public:
 private:
 	volatile ULONG m_ref;
 	
-};
+};
