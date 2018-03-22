@@ -1,0 +1,8 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\WOW6432Node\CLSID\{332F9EFA-2969-4990-83F9-6DB8E91A96F5}]
+@="cpp-com-stack"
+
+[HKEY_CLASSES_ROOT\WOW6432Node\CLSID\{332F9EFA-2969-4990-83F9-6DB8E91A96F5}\InProcServer32]
+@="C:\\dev\\studia\\ksr\\com-cpp-to-csharp\\Debug\\cpp-com-stack.dll"
+"ThreadingModel"="Both"

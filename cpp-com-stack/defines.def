@@ -1,0 +1,4 @@
+LIBRARY cpp-com-stack.dll
+EXPORTS
+	DllCanUnloadNow
+	DllGetClassObject

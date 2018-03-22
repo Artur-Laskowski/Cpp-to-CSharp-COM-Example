@@ -1,0 +1,19 @@
+import "oaidl.idl";
+import "ocidl.idl";
+
+[object, uuid(CF20C977-8743-4521-B2C1-F62CB9417338)]
+interface IStack : IUnknown {
+	HRESULT Push(int val);
+	HRESULT Pop([out]int *val);
+	HRESULT Top([out]int *val);
+};[uuid(1EB46D64-F59D-45A2-8537-AEC1E84F4ED1),
+helpstring("Example stack implementation"),
+version(1.0)]
+library ALStack {
+	importlib("stdole32.tlb");
+	interface IStack;
+	[uuid(332F9EFA-2969-4990-83F9-6DB8E91A96F5)]
+	coclass Stack {
+		interface IStack;
+	}
+};
